@@ -15,3 +15,6 @@ class Person(models.Model):
     countryOfBirth = models.CharField(max_length=100)
     cityOfBirth = models.CharField(max_length=100)
     role = models.CharField(max_length=30)
+
+    def __str__(self):
+        return self.numberId
