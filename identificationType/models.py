@@ -8,4 +8,7 @@ class identificationType(models.Model):
 
     def __str__(self):
         return self.codeIdentificationType
+
+    def getIdentificationsType ():
+        identificationType.objects.all()
     
