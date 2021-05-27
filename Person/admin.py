@@ -1,3 +1,4 @@
+from identificationType.models import identificationType
 from django.contrib import admin
 
 # Register your models here.

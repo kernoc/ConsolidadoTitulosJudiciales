@@ -1,0 +1,7 @@
+<form method="post">{% csrf_token %}
+¿Estás seguro que deseas borrar la Persona "{{ Person.idNumber }}"?
+<input type="submit" value="Aceptar" />
+</form>
+<p>
+<a href="{% url "Person:list" %}">Regresar</a>
+</p>
