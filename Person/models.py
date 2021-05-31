@@ -1,5 +1,5 @@
 from django.db import models
-from identificationType.models import identificationType
+from IdentificationType.models import IdentificationType
 
 # Create your models here.
 class Person(models.Model):

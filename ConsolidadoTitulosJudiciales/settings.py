@@ -40,7 +40,8 @@ INSTALLED_APPS = [
 
     # Local apps
     'Person',
-    'identificationType',
+    'IdentificationType',
+    'DailyBookAccounting',
 ]
 
 MIDDLEWARE = [
