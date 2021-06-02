@@ -12,7 +12,7 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.CreateModel(
-            name='identificationType',
+            name='IdentificationType',
             fields=[
                 ('idIdentificationType', models.AutoField(primary_key=True, serialize=False)),
                 ('codeIdentificationType', models.CharField(max_length=5)),
